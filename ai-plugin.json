@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "CodeSeeker",
+    "name_for_model": "CodeSeeker",
+    "description_for_human": "Unleash creativity with real-time GitHub insights, fueling your code and design inspiration!",
+    "description_for_model": "This plugin provides real-time GitHub project information to assist developers. When a user presents an idea or seeks advice, extract relevant keywords from their query to search GitHub projects. The plugin returns project details, which the model should analyze or compare to provide insightful suggestions. The goal is to inspire users, enrich the model's knowledge, and provide a foundation for their projects using the vast information available on GitHub.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "http://localhost:8000/openapi.json",
+        "is_user_authenticated": false
+    },
+    "logo_url": "http://localhost:8000/logo.png",
+    "contact_email": "chacyume@gmail.com",
+    "legal_info_url": "https://opensource.org/license/mit/"
+}

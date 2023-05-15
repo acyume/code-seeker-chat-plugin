@@ -9,10 +9,10 @@
     },
     "api": {
         "type": "openapi",
-        "url": "http://localhost:8000/openapi.json",
+        "url": "https://code-seeker-chat-plugin.vercel.app/openapi.json",
         "is_user_authenticated": false
     },
-    "logo_url": "http://localhost:8000/logo.png",
+    "logo_url": "https://code-seeker-chat-plugin.vercel.app/logo.png",
     "contact_email": "chacyume@gmail.com",
     "legal_info_url": "https://opensource.org/license/mit/"
 }
